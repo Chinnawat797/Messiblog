@@ -157,7 +157,7 @@
     }
 
     .Success-img{
-        width: 300px;
+        width: 400px;
         height: 300px;
     }
 
@@ -171,7 +171,7 @@
     }
 
     .National-img{
-        width: 300px;
+        width: 400px;
         height: 300px;
     }
 
@@ -185,23 +185,44 @@
 
     .Life-wrapper{
         padding: 0px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .Life-detail1{
+        position: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         font-size: 10px;
-        width: 320px;
-        height: 300px;
+        width: 350px;
+        height: 120px;
+    }
+
+    .Life-detail1 p {
+        margin-top: 10px;
+        
     }
 
     .Life-detail2{
+        margin-right: 15px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         font-size: 10px;
-        width: 320px;
-        height: 300px;
+        width: 350px;
+        height: 120px;
     }
 
     .Life-img{
         width: 150px;
         height: 100px;
+        display: none;
     }
 
     .Info-wrapper{
