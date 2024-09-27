@@ -3,17 +3,13 @@ import LionelBG2 from "../IMG/LionelBG2.jpg"
 
 export const Home = () => {
 
-    window.onload = function(){
-        const Imges = document.querySelector('.Fade-in')
-        Imges.classList.add('visible')
-
-        const Text = document.querySelector('.Home-Detail')
-        Text.classList.add('Scolltext')
-    }
   return (
     <div className='Home' id='Home'>
-        <img src={LionelBG2} alt='LionelBG2' className='Fade-in'/>
 
+      <div className='Home-bg'>
+        <img src={LionelBG2} alt='LionelBG2'/>
+      </div>
+        
         <div className='Home-wrapper'>
         <div className='Home-Detail'>
             <h1>Introduction</h1>

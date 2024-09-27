@@ -1,0 +1,16 @@
+@media screen and (max-width: 480px){
+
+    .Home-bg img{
+        object-position: right;
+    }
+
+    .Home-Detail{
+        font-size: 15px;
+        width: 70%;
+        padding: 0 20px;
+    }
+
+    .Home-Detail p{
+        font-size: 15px;
+    }
+}

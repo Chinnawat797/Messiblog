@@ -1,4 +1,5 @@
 import './App.css';
+import './Respon.css'
 import { Childhood } from './Component/Childhood.js';
 import { Home } from './Component/Home.js';
 import { Info } from './Component/Info.js';
