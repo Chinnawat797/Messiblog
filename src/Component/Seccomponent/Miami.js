@@ -8,7 +8,7 @@ export const Miami = () => {
     
     const handlescroll = () => {
       const Position = window.scrollY
-      if(Position > 2520){
+      if(Position > 1700){
         setmiamidisplay(true)
       }else{
         setmiamidisplay(false)

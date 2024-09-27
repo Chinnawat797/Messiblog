@@ -8,7 +8,7 @@ export const Success = () => {
     const handlescr = () => {
       const Position = window.scrollY
 
-      if(Position > 3250){
+      if(Position > 2190){
         setSuccessdisplay(true)
       }else{
         setSuccessdisplay(false)

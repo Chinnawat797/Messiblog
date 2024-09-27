@@ -6,7 +6,7 @@ export const National = () => {
   useEffect(() => {
     const handlescoll = () => {
       const Position = window.scrollY
-      if(Position > 3800){
+      if(Position > 2580){
         setisvisible(true)
       }else{
         setisvisible(false)

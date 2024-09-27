@@ -8,7 +8,7 @@ export const Personal2 = () => {
     useEffect(() => {
       const handlescoll = () => {
         const Position = window.scrollY
-        if(Position > 385){
+        if(Position > 250){
           setisvisible(true)
         }else{
           setisvisible(false)

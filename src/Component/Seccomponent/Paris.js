@@ -9,7 +9,7 @@ export const Paris = () => {
     const handlescroll = () => {
       const Position = window.scrollY
 
-      if(Position > 1820){
+      if(Position > 1340){
         setparisdisplay(true);
       }else{
         setparisdisplay(false)

@@ -8,7 +8,7 @@ export const Life = () => {
   useEffect(() => {
     const handlescr = () => {
       const Position = window.scrollY
-      if(Position > 4570){
+      if(Position > 2900){
         setlifedisplay(true)
       }else{
         setlifedisplay(false)

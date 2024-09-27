@@ -8,7 +8,7 @@ useEffect(() => {
   const handlescroll = () => {
     const Position = window.scrollY
 
-    if(Position > 1220){
+    if(Position > 960){
       setbardisplay(true)
     }else{
       setbardisplay(false)

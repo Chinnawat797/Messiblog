@@ -54,15 +54,20 @@
         font-size: 15px;
     }
 
+    .Personal{
+        height: 50vh;
+    }
+
     .Personal-wrapper{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: start;
+        height: 100%;
     }
 
     .Personal-img{
-        width: 200px;
+        width: 300px;
         height: 200px;
         margin-top: 40px;
     }
@@ -75,7 +80,10 @@
     }
 
     .Childhood{
-        height: 100vh;        
+        height: 40vh;
+        margin-top: 0;   
+        border-top: 1px solid #fff;
+        padding: 10px 10px;
     }
     
     .Childhood-wrapper{
@@ -85,5 +93,119 @@
     .Childhood-detail{
         font-size: 10px;
         width: 320px;
+    }
+
+    .Barcelona{
+        height: 72vh;
+    }
+
+    .Barcelona-wrapper{
+        font-size: 10px;
+    }
+
+    .Barcelona-img{
+        height: 200px;
+    }
+
+    .Barcelona-detail{
+        font-size: 10px;
+    }
+
+    .Paris{
+        height: 72vh;
+    }
+
+    .Paris-wrapper{
+        font-size: 10px;
+    }
+
+    .Paris-img{
+        height: 200px;
+    }
+
+    .Paris-detail{
+        font-size: 10px;
+    }
+
+    .Miami{
+        height: 72vh;
+    }
+
+    .Miami-wrapper{
+        font-size: 10px;
+    }
+
+    .Miami-img{
+        height: 200px;
+    }
+
+    .Miami-detail{
+        font-size: 10px;
+    }
+
+    .Success{
+        height: 70vh;
+    }
+
+    .Success-wrapper{
+        font-size: 10px;
+        height: 100%;
+    }
+
+    .Success-detail{
+        font-size: 10px;
+    }
+
+    .Success-img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .National{
+        height: 70vh;
+    }
+
+    .National-wrapper{
+        font-size: 10px;
+        height: 100%;
+    }
+
+    .National-img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .National-detail{
+        font-size: 10px;
+    }
+
+    .Life{
+        height: 70vh;
+    }
+
+    .Life-wrapper{
+        padding: 0px 20px;
+    }
+
+    .Life-detail1{
+        font-size: 10px;
+        width: 320px;
+        height: 300px;
+    }
+
+    .Life-detail2{
+        font-size: 10px;
+        width: 320px;
+        height: 300px;
+    }
+
+    .Life-img{
+        width: 150px;
+        height: 100px;
+    }
+
+    .Info-wrapper{
+        font-size: 10px;
+        padding: 10px 10px;
     }
 }

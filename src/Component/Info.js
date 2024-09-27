@@ -11,7 +11,7 @@ export const Info = () => {
   useEffect(() => {
     const handlescr = () => {
       const Position = window.scrollY
-      if(Position > 4900){
+      if(Position > 3240){
         setinfodisplay(true)
       }else{
         setinfodisplay(false)
