@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { FiAlignJustify } from "react-icons/fi";
 
 export const Header2 = () => {
+
+  const [isopen, setisopen] = useState(false);
+
+  const toggleham = () =>{
+    setisopen(!isopen);
+  }
     
   return (
     <div className='Header'>
@@ -10,7 +17,7 @@ export const Header2 = () => {
             <h1>Lionel</h1>
           </div>
 
-          <ul>
+          <ul className={`Header-link ${isopen ? "ullink" : ""}`}>
             <a href='#Home'><li>Home</li></a>
             <a href='#Personal'><li>Personal</li></a>
             <a href='#Success'><li>Success</li></a>
@@ -18,6 +25,8 @@ export const Header2 = () => {
             <a href='#Life'><li>Current life</li></a>
             <a href='#Info'><li>Info</li></a>
           </ul>
+
+          <div className='Ham' onClick={toggleham}>{isopen ? 'X' : <FiAlignJustify/>}</div>
 
         </div>
     </div>

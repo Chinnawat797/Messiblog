@@ -1,5 +1,45 @@
 @media screen and (max-width: 480px){
 
+    .Header{
+        height: auto;
+    }
+
+    .Header-wrapper{
+        flex-direction: column;
+        align-items: start;
+        height: auto;
+    }
+
+    .Ham{
+        display: block;
+    }
+
+    .Header-link{
+        color: black;
+        flex-direction: column;
+        align-items: start;
+        padding: 10px 5px;
+        width: 100%;
+        display: none;
+       
+    }
+
+    .ullink{
+        display: flex;
+    }
+    .Header-wrapper ul a{
+        border-radius: 10px;
+        background-color: #333;
+        color: #fff;
+        padding: 5px 5px;
+        margin: 5px 0;
+        width: 100%;
+    }
+
+    .Ham{
+        top: 5px;
+    }
+
     .Home-bg img{
         object-position: right;
     }
@@ -12,5 +52,38 @@
 
     .Home-Detail p{
         font-size: 15px;
+    }
+
+    .Personal-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+    }
+
+    .Personal-img{
+        width: 200px;
+        height: 200px;
+        margin-top: 40px;
+    }
+
+    .Personal-detail{
+        margin-top:20px;
+        width: 250px;
+        height: 300px;
+        font-size: 12px;
+    }
+
+    .Childhood{
+        height: 100vh;        
+    }
+    
+    .Childhood-wrapper{
+        height: 100%;
+    }
+
+    .Childhood-detail{
+        font-size: 10px;
+        width: 320px;
     }
 }
