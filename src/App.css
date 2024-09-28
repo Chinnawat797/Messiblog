@@ -424,7 +424,7 @@ html{
 }
 
 .Info{
-    height: 12vh;
+    height: auto;
     border-top: 1px solid rgb(170, 170, 170);
 }
 
@@ -438,12 +438,7 @@ html{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    opacity: 0;
-    transition: all 1s ease-in-out;
-}
 
-.Info-wrapper-display{
-    opacity: 1;
 }
 
 .Info-contact{
