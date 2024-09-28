@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FiAlignJustify } from "react-icons/fi";
+import useAOS from './useAOS';
 
 export const Header2 = () => {
 
@@ -8,9 +9,11 @@ export const Header2 = () => {
   const toggleham = () =>{
     setisopen(!isopen);
   }
-    
+   
+  
+  useAOS();
   return (
-    <div className='Header'>
+    <div className='Header' data-aos="fade-down">
         <div className='Header-wrapper'>
 
           <div className='Header-Logo'>

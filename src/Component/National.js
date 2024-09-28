@@ -1,31 +1,19 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Messination from '../IMG/Messination.jpg'
+import useAOS from './useAOS'
 export const National = () => {
-  const [isvisible, setisvisible] = useState(false)
 
-  useEffect(() => {
-    const handlescoll = () => {
-      const Position = window.scrollY
-      if(Position > 2580){
-        setisvisible(true)
-      }else{
-        setisvisible(false)
-      }
-    }
-
-    window.addEventListener("scroll", handlescoll)
-  }, [])
-
+  useAOS();
   return (
     <div className='National' id='Nation'>
 
       <div className='National-wrapper'>
 
-        <div className={`National-img ${isvisible ? "National-img-display" : ""}`}>
+        <div className="National-img" data-aos="fade-right" data-aos-duration="800">
           <img src={Messination} alt='Messination'/>
         </div>
 
-        <div className={`National-detail ${isvisible ? "National-detail-display" : ""}`}>
+        <div className="National-detail" data-aos="fade-left" data-aos-duration="800">
           <h1>International Career</h1>
           <p>Messi has played for the Argentina national team since a young age. He has served as captain and led Argentina to several major victories, including:</p>
           <li>The 2008 Olympics, where he won a gold medal.</li>

@@ -1,33 +1,21 @@
-import React ,{useState, useEffect} from 'react'
+import React from 'react'
 import Messiperson from '../IMG/Messiperson.jpg'
+import useAOS from './useAOS';
 
 export const Personal2 = () => {
 
-    const [isvisible, setisvisible] = useState(false)
+  useAOS();
 
-    useEffect(() => {
-      const handlescoll = () => {
-        const Position = window.scrollY
-        if(Position > 250){
-          setisvisible(true)
-        }else{
-          setisvisible(false)
-        }
-      }
-  
-      window.addEventListener("scroll", handlescoll)
-    }, [])
-  
   return (
     <div className='Personal2' id='Personal'>
 
         <div className='Personal-wrapper'>
 
-          <div className={`Personal-img ${isvisible ? 'Personal-img-scr': ""}`}>
+          <div className="Personal-img" data-aos="fade-right" data-aos-duration="1200">
             <img src={Messiperson} alt='Messiperson'/>
           </div>
 
-          <div className={`Personal-detail ${isvisible ? 'Personal-detail-scr' : ""}`}>
+          <div className="Personal-detail" data-aos="fade-left" data-aos-duration="1200">
             <p>Full Name: Lionel Andrés Messi Cuccittini</p>
             <p>Birth date: June 24, 1987</p>
             <p>Place of birth: Rosario, Santa Fe, Argentina</p>

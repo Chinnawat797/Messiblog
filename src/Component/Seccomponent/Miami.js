@@ -1,22 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import MessiMM from './IMG/MessiMM.jpg'
+import useAOS from '../useAOS'
 export const Miami = () => {
 
-  const [miamidisplay, setmiamidisplay] = useState(false)
+  useAOS();
 
-  useEffect(() => {
-    
-    const handlescroll = () => {
-      const Position = window.scrollY
-      if(Position > 1700){
-        setmiamidisplay(true)
-      }else{
-        setmiamidisplay(false)
-      }
-    }
-
-    window.addEventListener("scroll", handlescroll)
-  }, [])
   return (
 
    
@@ -25,11 +13,11 @@ export const Miami = () => {
       <div className='Miami-wrapper'>
 
         <div><h1>3. Inter Miami</h1></div>
-        <div className={`Miami-img ${miamidisplay ? 'Miami-img-display' : ""}`}>
+        <div className="Miami-img"  data-aos="fade-up" data-aos-duration="1200">
           <img src={MessiMM} alt='MessiMM'/>
         </div>
 
-        <div className='Miami-detail'>
+        <div className='Miami-detail'  data-aos="fade-up" data-aos-duration="1200">
         <p>In 2023, Messi joined Inter Miami, a club in Major League Soccer (MLS) in the United States. He was warmly welcomed by fans in the U.S. and continues to be a highly influential player in the world of football.</p>
         </div>
         
