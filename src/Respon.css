@@ -96,7 +96,7 @@
     }
 
     .Barcelona{
-        height: 72vh;
+        height: auto;
     }
 
     .Barcelona-wrapper{
@@ -112,7 +112,7 @@
     }
 
     .Paris{
-        height: 72vh;
+        height: auto;
     }
 
     .Paris-wrapper{
@@ -128,7 +128,7 @@
     }
 
     .Miami{
-        height: 72vh;
+        height: auto;
     }
 
     .Miami-wrapper{
@@ -144,7 +144,7 @@
     }
 
     .Success{
-        height: 70vh;
+        height: auto
     }
 
     .Success-wrapper{
@@ -162,7 +162,8 @@
     }
 
     .National{
-        height: 70vh;
+        height: auto;
+        margin-top: 20px;
     }
 
     .National-wrapper{
@@ -180,7 +181,8 @@
     }
 
     .Life{
-        height: 70vh;
+        height: 50vh;
+        padding: 20px 0px;
     }
 
     .Life-wrapper{

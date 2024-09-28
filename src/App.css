@@ -108,7 +108,7 @@ html{
 .Personal-wrapper{
     max-width: 1180px;
     margin: 0 auto 0;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,7 +146,7 @@ html{
 }
 
 .Childhood-wrapper{
-    height: 50vh;
+    height: 100%;
     max-width: 1180px;
     margin: 0 auto 0;
     padding: 0 100px;
@@ -179,7 +179,7 @@ html{
 
 .Barcelona-wrapper{
     max-width: 1180px;
-    height: 100vh;
+    height: 100%;
     padding: 10px 10px;
     margin: 0 auto 0;
     border-top: 1px solid rgb(170, 170, 170);
@@ -217,7 +217,7 @@ html{
 .Paris-wrapper{
     border-top: 1px solid rgb(170, 170, 170);
     max-width: 1180px;
-    height: 100vh;
+    height: 100%;
     padding: 10px 10px;
     margin: 0 auto 0;
 }
@@ -254,7 +254,7 @@ html{
 .Miami-wrapper{
     border-top: 1px solid rgb(170, 170, 170);
     max-width: 1180px;
-    height: 100vh;
+    height: 100%;
     padding: 10px 10px;
     margin: 0 auto 0;
 }
@@ -429,6 +429,7 @@ html{
 }
 
 .Info-wrapper{
+    height: 100%;
     padding-top: 10px;
     max-width: 1180px;
     margin: 0 auto 0;
