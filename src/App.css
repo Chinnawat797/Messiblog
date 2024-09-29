@@ -19,6 +19,9 @@ html{
     height: 40px;
     transition: all 2s ease-in-out;
     background-color: #fff;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
 }
 
 .Header-wrapper{
@@ -55,7 +58,7 @@ html{
 .Ham{
     color: black;
     position: absolute;
-    right: 20px;
+    right: 30px;
     display: none;
 }
 
